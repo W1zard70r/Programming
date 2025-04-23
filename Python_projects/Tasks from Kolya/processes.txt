@@ -1,0 +1,7 @@
+F   UID     PID    PPID PRI  NI    VSZ   RSS WCHAN  STAT TTY        TIME COMMAND
+4     0     213       1  20   0   3160  1152 -      Ss+  hvc0       0:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+4     0     246       1  20   0   3116  1192 -      Ss+  tty1       0:00 /sbin/agetty -o -p -- \u --noclear - linux
+4  1000     351     350  20   0  10032  9260 do_wai Ss   pts/0      0:00 -bash
+4     0     352       2  20   0   6824  4540 -      Ss   pts/1      0:00 /bin/login -f
+4  1000     472     352  20   0   9900  8844 core_s S+   pts/1      0:00 -bash
+0  1000     944     351  20   0   8312  4048 -      R+   pts/0      0:00 ps la

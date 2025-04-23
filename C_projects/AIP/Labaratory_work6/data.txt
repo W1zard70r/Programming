@@ -1,0 +1,36 @@
+5
+War and Peace
+499.90
+1274
+Tolstoy L.N.
+Publisher A
+2011
+Moscow
+Crime and Punishment
+399.90
+800
+Dostoevsky F.M.
+Publisher B
+2012
+Moscow
+Mushoku Tensei
+999.90
+1000
+Rifujin na Magonote
+Publisher Crime
+2010
+Tokyo
+War and Peace
+499.90
+1274
+Tolstoy L.N.
+Publisher A
+2011
+Tokyo
+War and Peace
+499.90
+1274
+Tolstoy L.N.
+Publisher A
+2011
+SPB

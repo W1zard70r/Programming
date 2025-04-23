@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Board</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div id="messages">
+    {% for message in messages %}
+        <div>
+            <span>{{ message["email"] }}</span>
+            <span>{{ message["content"] }}</span>
+        </div>
+    {% endfor %}
+    </div>
+    <input type="email" id="email" placeholder="Введите ваш Email"/>
+    <input type="text" id="content" placeholder="Введите ваше сообщение"/>
+    <button type="button" id="b1" name="add-button">Добавить элемент</button>
+    <input type="text" id="number" placeholder="Введите номер элемента"/>
+    <button type="button" id="b2" name="delete-button">Удалить элемент</button>
+    <input type="text" id="content_part" placeholder="Введите часть сообщения"/>
+    <button type="button" id="b3" name="find-button">Найти элемент</button>
+    <script src="static/script.js"></script>
+</body>
+</html>

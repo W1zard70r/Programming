@@ -1,0 +1,3 @@
+Cities with the maximum number of unique publishers (2):
+- Moscow
+- Tokyo

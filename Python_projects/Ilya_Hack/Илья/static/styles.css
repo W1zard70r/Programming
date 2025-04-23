@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 18px;
+    text-align: left;
+    background-image: url("https://ih1.redbubble.net/image.747132967.8293/raf,750x1000,075,t,101010:01c5ca27c6.u6.jpg");
+    background-position: right 10px top;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+input,
+textarea,
+button {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #030589;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #06034a;
+}

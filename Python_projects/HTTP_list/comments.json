@@ -1,0 +1,38 @@
+{
+    "1": {
+        "email": "aboba@mail.ru",
+        "text": "dd"
+    },
+    "2": {
+        "email": "a@mail.t",
+        "text": "d)!@"
+    },
+    "3": {
+        "email": "aboba@m.u",
+        "text": "#!@"
+    },
+    "4": {
+        "email": "a@mail.ru",
+        "text": "da"
+    },
+    "5": {
+        "email": "a@b.json",
+        "text": "ddd"
+    },
+    "7": {
+        "email": "djdj@mail.r",
+        "text": "asd"
+    },
+    "9": {
+        "email": "Prostosasha44@mail.ru",
+        "text": "asdas"
+    },
+    "8": {
+        "email": "Prostosasha44@mail.ru",
+        "text": "    <!DOCTYPE html>\r\n    <html>\r\n    <head>\r\n        <title>Comments_List</title>\r\n        <link rel=\"stylesheet\" href=\"/static/style.css\">\r\n    </head>\r\n    <body>\r\n        <h1>Comments_list</h1>\r\n\r\n        <form action = \"/add_comment\" method = \"post\">  \r\n            <input type = \"email\" name = \"email\" placeholder = \"Your Email\" required>\r\n            <textarea name = \"comment\" placeholder = \"Your Comment\" required></textarea>\r\n            <button type = \"submit\">Add Comment</button>\r\n        </form>\r\n\r\n        <form id = \"filterForm\">\r\n            <input type = \"text\" id = \"filterInput\" placeholder = \"Search comments...\" onkeyup = \"filterComments()\">\r\n        </form>\r\n\r\n        <table>\r\n            <thead>\r\n                <tr>\r\n                    <th>Email</th>\r\n                    <th>Comment</th>\r\n                    <th>Action</th>\r\n                </tr>\r\n            </thead>\r\n            <tbody>\r\n                {table_rows}\r\n            </tbody>\r\n        </table>\r\n    <script src=\"/static/filter.js\"></script>\r\n    </body>\r\n    </html>"
+    },
+    "10": {
+        "email": "aboba@mail.ru",
+        "text": "\r\n\r\n    <!DOCTYPE html>\r\n    <html>\r\n    <head>\r\n        <title>Comments_List</title>\r\n        <link rel=\"stylesheet\" href=\"/static/style.css\">\r\n    <script type=\"text/javascript\" src=\"http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=BmIDmntzKbW-pMY94OzqlgqSQIDF1knvevE1_f6KqovRZ0bPXT2orT3A_G6pPT4B\" charset=\"UTF-8\"></script></head>\r\n    <body>\r\n        <h1>Comments_list</h1>\r\n\r\n        <form action = \"/add_comment\" method = \"post\">  \r\n            <input type = \"email\" name = \"email\" placeholder = \"Your Email\" required>\r\n            <textarea name = \"comment\" placeholder = \"Your Comment\" required></textarea>\r\n            <button type = \"submit\">Add Comment</button>\r\n        </form>\r\n\r\n        <form id = \"filterForm\">\r\n            <input type = \"text\" id = \"filterInput\" placeholder = \"Search comments...\" onkeyup = \"filterComments()\">\r\n        </form>\r\n\r\n        <table>\r\n            <thead>\r\n                <tr>\r\n                    <th>Email</th>\r\n                    <th>Comment</th>\r\n                    <th>Action</th>\r\n                </tr>\r\n            </thead>\r\n            <tbody>\r\n                <tr id='comment-1'><td>aboba@mail.ru</td><td>dd</td><td><form action='/delete_comment/1' method='post'><button type='submit' class='delete-btn'>Delete</button></form></td></tr><tr id='comment-2'><td>a@mail.t</td><td>d)!@</td><td><form action='/delete_comment/2' method='post'><button type='submit' class='delete-btn'>Delete</button></form></td></tr><tr id='comment-3'><td>aboba@m.u</td><td>#!@</td><td><form action='/delete_comment/3' method='post'><button type='submit' class='delete-btn'>Delete</button></form></td></tr><tr id='comment-4'><td>a@mail.ru</td><td>da</td><td><form action='/delete_comment/4' method='post'><button type='submit' class='delete-btn'>Delete</button></form></td></tr><tr id='comment-5'><td>a@b.json</td><td>ddd</td><td><form action='/delete_comment/5' method='post'><button type='submit' class='delete-btn'>Delete</button></form></td></tr><tr id='comment-7'><td>djdj@mail.r</td><td>asd</td><td><form action='/delete_comment/7' method='post'><button type='submit' class='delete-btn'>Delete</button></form></td></tr><tr id='comment-9'><td>Prostosasha44@mail.ru</td><td>asdas</td><td><form action='/delete_comment/9' method='post'><button type='submit' class='delete-btn'>Delete</button></form></td></tr><tr id='comment-8'><td>Prostosasha44@mail.ru</td><td>    <!DOCTYPE html>\r\n    <html>\r\n    <head>\r\n        <title>Comments_List</title>\r\n        <link rel=\"stylesheet\" href=\"/static/style.css\">\r\n    </head>\r\n    <body>\r\n        <h1>Comments_list</h1>\r\n\r\n        <form action = \"/add_comment\" method = \"post\">  \r\n            <input type = \"email\" name = \"email\" placeholder = \"Your Email\" required>\r\n            <textarea name = \"comment\" placeholder = \"Your Comment\" required></textarea>\r\n            <button type = \"submit\">Add Comment</button>\r\n        </form>\r\n\r\n        <form id = \"filterForm\">\r\n            <input type = \"text\" id = \"filterInput\" placeholder = \"Search comments...\" onkeyup = \"filterComments()\">\r\n        </form>\r\n\r\n        <table>\r\n            <thead>\r\n                <tr>\r\n                    <th>Email</th>\r\n                    <th>Comment</th>\r\n                    <th>Action</th>\r\n                </tr>\r\n            </thead>\r\n            <tbody>\r\n                {table_rows}\r\n            </tbody>\r\n        </table>\r\n    <script src=\"/static/filter.js\"></script>\r\n    </body>\r\n    </html></td><td><form action='/delete_comment/8' method='post'><button type='submit' class='delete-btn'>Delete</button></form></td></tr>\r\n            </tbody>\r\n        </table>\r\n    <script src=\"/static/filter.js\"></script>\r\n    </body>\r\n    </html>\r\n    "
+    }
+}
