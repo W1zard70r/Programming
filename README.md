@@ -11,16 +11,3 @@
   <br>
   <img src="https://streak-stats.demolab.com?user=W1zard70r&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak">
 </div>
-
-```bash
-# Запустите это в терминале 😉
-while true; do
-  printf "\r< Загрузка... [ / ] >"
-  sleep 0.1
-  printf "\r< Загрузка... [ — ] >"
-  sleep 0.1
-  printf "\r< Загрузка... [ \\ ] >"
-  sleep 0.1
-  printf "\r< Загрузка... [ | ] >"
-  sleep 0.1
-done
