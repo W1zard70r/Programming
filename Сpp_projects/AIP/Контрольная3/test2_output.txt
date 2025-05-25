@@ -1,0 +1,1 @@
+Unique elements from stack (FIFO order): 9 1 3 7 5 

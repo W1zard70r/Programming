@@ -75,7 +75,7 @@ int main()
 }
 
 bool isRUalpha(char c) {
-    return (c >= 'À' && c <= 'ß') || (c >= 'à' && c <= 'ÿ') || c == '¸' || c == '¨' ;
+    return (c >= 'Ã€' && c <= 'ÃŸ') || (c >= 'Ã ' && c <= 'Ã¿') || c == 'Â¸' || c == 'Â¨' ;
 }
 
 size_t exercise1(char ss[][strLEN], size_t k, char goodstr[][strLEN]) {
